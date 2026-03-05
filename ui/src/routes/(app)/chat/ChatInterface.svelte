@@ -1079,7 +1079,7 @@ Just ask naturally - I'll fetch the exact resources you need! 📚`,
 		<div class="mx-auto flex max-w-4xl items-end gap-3">
 			<div class="flex-1">
 				<textarea
-					class="w-full resize-none rounded-lg bg-gray-800 px-4 py-3 text-gray-100 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500"
+					class="w-full resize-none rounded-lg bg-gray-800 px-4 py-3 text-gray-100 placeholder-gray-500 focus:ring-2 focus:ring-blue-500 focus:outline-none"
 					placeholder="Ask about a Bible verse, translation notes, or word meanings..."
 					bind:value={inputValue}
 					on:keydown={handleKeydown}

@@ -423,7 +423,7 @@
 			<!-- Cache Details -->
 			{#if result._metadata.dataSourcesCached}
 				<div class="mt-4 rounded-lg border border-white/10 bg-black/30 p-3">
-					<h5 class="mb-2 text-xs font-semibold uppercase tracking-wider text-gray-400">
+					<h5 class="mb-2 text-xs font-semibold tracking-wider text-gray-400 uppercase">
 						Cache Details
 					</h5>
 					<div class="grid grid-cols-1 gap-3 text-xs">
@@ -487,7 +487,7 @@
 						</div>
 					</div>
 					{#if result._metadata.cacheNote}
-						<p class="mt-2 text-xs italic text-gray-500">{result._metadata.cacheNote}</p>
+						<p class="mt-2 text-xs text-gray-500 italic">{result._metadata.cacheNote}</p>
 					{/if}
 				</div>
 			{/if}
@@ -522,13 +522,13 @@
 					{#if extractedContent.isMarkdown}
 						<!-- Render markdown/text content directly -->
 						<pre
-							class="overflow-x-auto whitespace-pre-wrap break-words text-sm leading-relaxed text-gray-200">{extractedContent.content}</pre>
+							class="overflow-x-auto text-sm leading-relaxed break-words whitespace-pre-wrap text-gray-200">{extractedContent.content}</pre>
 					{:else if typeof result === 'string'}
 						<pre
-							class="overflow-x-auto whitespace-pre-wrap break-words text-xs text-gray-300 lg:text-sm">{result}</pre>
+							class="overflow-x-auto text-xs break-words whitespace-pre-wrap text-gray-300 lg:text-sm">{result}</pre>
 					{:else}
 						<pre
-							class="overflow-x-auto whitespace-pre-wrap break-words text-xs text-gray-300 lg:text-sm">{JSON.stringify(
+							class="overflow-x-auto text-xs break-words whitespace-pre-wrap text-gray-300 lg:text-sm">{JSON.stringify(
 								result,
 								null,
 								2

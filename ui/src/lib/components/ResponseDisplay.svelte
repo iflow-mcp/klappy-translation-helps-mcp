@@ -54,7 +54,7 @@
 		</div>
 
 		<pre
-			class="scrollbar-thin scrollbar-track-gray-800 scrollbar-thumb-gray-600 max-h-96 overflow-auto whitespace-pre-wrap rounded bg-gray-900/50 p-4 font-mono text-sm leading-relaxed text-gray-300">{formatJson(
+			class="scrollbar-thin scrollbar-track-gray-800 scrollbar-thumb-gray-600 max-h-96 overflow-auto rounded bg-gray-900/50 p-4 font-mono text-sm leading-relaxed whitespace-pre-wrap text-gray-300">{formatJson(
 				response
 			)}</pre>
 	</div>

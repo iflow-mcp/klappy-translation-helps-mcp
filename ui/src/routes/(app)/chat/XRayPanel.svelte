@@ -72,7 +72,7 @@
 </script>
 
 <div
-	class="fixed bottom-0 right-0 z-50 h-full w-96 shadow-2xl"
+	class="fixed right-0 bottom-0 z-50 h-full w-96 shadow-2xl"
 	style="background-color: #0f172a; transform: translateX(0); transition: transform 0.3s ease-out;"
 >
 	<div
@@ -206,7 +206,7 @@
 												>
 											</div>
 											{#if v.citation?.quotedText || v.quotedText}
-												<div class="mt-1 truncate text-xs italic text-gray-400">
+												<div class="mt-1 truncate text-xs text-gray-400 italic">
 													"{(v.citation?.quotedText || v.quotedText || '').substring(0, 60)}{(
 														v.citation?.quotedText ||
 														v.quotedText ||
@@ -237,7 +237,7 @@
 					</h4>
 					<div class="relative space-y-2">
 						<!-- Timeline connector line -->
-						<div class="absolute bottom-0 left-4 top-0 w-0.5 bg-gray-700"></div>
+						<div class="absolute top-0 bottom-0 left-4 w-0.5 bg-gray-700"></div>
 
 						{#each timeline as entry, index}
 							<div class="relative flex items-start gap-3 pl-2">
@@ -326,7 +326,7 @@
 									>
 										<div class="flex items-center gap-2">
 											<span class="text-lg">{getAgentIcon(agent.agent || agent.name)}</span>
-											<span class="font-medium capitalize text-white"
+											<span class="font-medium text-white capitalize"
 												>{agent.agent || agent.name}</span
 											>
 											{#if agent.success === false || agent.status === 'error'}
@@ -362,7 +362,7 @@
 									<div class="flex items-center justify-between p-3">
 										<div class="flex items-center gap-2">
 											<span class="text-lg">{getAgentIcon(agent.agent || agent.name)}</span>
-											<span class="font-medium capitalize text-white"
+											<span class="font-medium text-white capitalize"
 												>{agent.agent || agent.name}</span
 											>
 										</div>

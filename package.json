@@ -4,7 +4,7 @@
   "description": "MCP Server for aggregating Bible translation resources from Door43",
   "type": "module",
   "bin": {
-    "iflow-mcp-klappy-translation-helps-mcp": "./src/index.ts"
+    "iflow-mcp-klappy-translation-helps-mcp": "./mcp-server.js"
   },
   "scripts": {
     "prebuild": "node scripts/sync-version.js",

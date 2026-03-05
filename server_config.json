@@ -1,0 +1,3 @@
+{
+  "serverConfig": "{\"mcpServers\":{\"translation-helps-mcp\":{\"command\":\"npx\",\"args\":[\"-y\",\"@iflow-mcp/klappy-translation-helps-mcp\"],\"values\":{}}}}"
+}
