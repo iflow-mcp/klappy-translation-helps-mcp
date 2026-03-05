@@ -58,9 +58,9 @@
 
 	<!-- Token waste visualization -->
 	<div
-		class="absolute -top-20 -left-20 h-40 w-40 animate-pulse rounded-full bg-red-500/10 blur-3xl"
+		class="absolute -left-20 -top-20 h-40 w-40 animate-pulse rounded-full bg-red-500/10 blur-3xl"
 	></div>
 	<div
-		class="absolute -right-20 -bottom-20 h-60 w-60 animate-pulse rounded-full bg-purple-500/10 blur-3xl delay-300"
+		class="absolute -bottom-20 -right-20 h-60 w-60 animate-pulse rounded-full bg-purple-500/10 blur-3xl delay-300"
 	></div>
 </div>

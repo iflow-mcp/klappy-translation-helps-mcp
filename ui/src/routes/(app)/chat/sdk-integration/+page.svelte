@@ -402,7 +402,7 @@ npm install</code
 								<div class="ml-4 text-gray-400">← Step 1: SDK Wrapper</div>
 							</div>
 						</div>
-						<div class="mt-2 ml-4">
+						<div class="ml-4 mt-2">
 							<div class="text-cyan-400">routes/</div>
 							<div class="ml-4">
 								<div class="text-cyan-400">api/</div>
@@ -412,7 +412,7 @@ npm install</code
 									<div class="ml-4 text-gray-400">← Step 2: API Endpoint</div>
 								</div>
 							</div>
-							<div class="mt-2 ml-4">
+							<div class="ml-4 mt-2">
 								<div class="text-cyan-400">(app)/</div>
 								<div class="ml-4">
 									<div class="text-cyan-400">chat/</div>
@@ -454,7 +454,7 @@ npm install</code
 			</p>
 			<div class="mb-4">
 				<strong class="text-white">What this does:</strong>
-				<ul class="mt-2 ml-6 list-disc space-y-1 text-sm text-gray-300">
+				<ul class="ml-6 mt-2 list-disc space-y-1 text-sm text-gray-300">
 					<li>Manages a singleton client instance</li>
 					<li>Handles connection initialization</li>
 					<li>Provides clean async/await functions</li>
@@ -493,7 +493,7 @@ npm install</code
 			</p>
 			<div class="mb-4">
 				<strong class="text-white">What this does:</strong>
-				<ul class="mt-2 ml-6 list-disc space-y-1 text-sm text-gray-300">
+				<ul class="ml-6 mt-2 list-disc space-y-1 text-sm text-gray-300">
 					<li>Receives POST requests from the frontend</li>
 					<li>Gets OpenAI API key from environment variables</li>
 					<li>Uses the SDK wrapper to discover available MCP tools</li>
@@ -538,7 +538,7 @@ npm install</code
 			</p>
 			<div class="mb-4">
 				<strong class="text-white">What this does:</strong>
-				<ul class="mt-2 ml-6 list-disc space-y-1 text-sm text-gray-300">
+				<ul class="ml-6 mt-2 list-disc space-y-1 text-sm text-gray-300">
 					<li>Displays a chat interface to the user</li>
 					<li>Handles user input and sends it to the API endpoint</li>
 					<li>Displays responses from the API</li>

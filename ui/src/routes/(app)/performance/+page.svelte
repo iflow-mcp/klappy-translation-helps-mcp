@@ -335,7 +335,7 @@
 				</p>
 
 				<!-- Cloudflare Badge -->
-				<div class="mt-12 mb-8 flex justify-center">
+				<div class="mb-8 mt-12 flex justify-center">
 					<div
 						class="rounded-xl border border-blue-500/30 bg-gradient-to-r from-blue-600 to-cyan-600 px-8 py-4 text-white shadow-lg backdrop-blur-xl"
 					>

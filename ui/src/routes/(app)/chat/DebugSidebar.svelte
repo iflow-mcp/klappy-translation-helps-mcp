@@ -124,7 +124,7 @@
 <!-- Toggle Button (always visible) -->
 <button
 	on:click={() => (isOpen = !isOpen)}
-	class="fixed right-4 bottom-20 z-40 flex h-12 w-12 items-center justify-center rounded-full bg-gray-700 text-white shadow-lg transition-all hover:bg-gray-600 {isOpen
+	class="fixed bottom-20 right-4 z-40 flex h-12 w-12 items-center justify-center rounded-full bg-gray-700 text-white shadow-lg transition-all hover:bg-gray-600 {isOpen
 		? 'bg-gray-600'
 		: ''}"
 	title="Debug Console ({logs.length} entries, {errorCount} errors)"
@@ -132,7 +132,7 @@
 	<Bug class="h-5 w-5" />
 	{#if errorCount > 0}
 		<span
-			class="absolute -top-1 -right-1 flex h-5 w-5 items-center justify-center rounded-full bg-red-500 text-xs font-bold text-white"
+			class="absolute -right-1 -top-1 flex h-5 w-5 items-center justify-center rounded-full bg-red-500 text-xs font-bold text-white"
 		>
 			{errorCount}
 		</span>
@@ -329,7 +329,7 @@
 									</summary>
 									<div class="mt-2 rounded bg-gray-950 p-3">
 										<pre
-											class="max-h-96 overflow-auto font-mono text-xs leading-relaxed break-words whitespace-pre-wrap text-gray-300">
+											class="max-h-96 overflow-auto whitespace-pre-wrap break-words font-mono text-xs leading-relaxed text-gray-300">
 {formatResponse(log.response)}</pre>
 									</div>
 								</details>
@@ -342,7 +342,7 @@
 										🤖 LLM Response (for comparison)
 									</summary>
 									<div
-										class="mt-2 max-h-64 overflow-auto rounded bg-gray-950 p-2 text-xs whitespace-pre-wrap text-gray-300"
+										class="mt-2 max-h-64 overflow-auto whitespace-pre-wrap rounded bg-gray-950 p-2 text-xs text-gray-300"
 									>
 										{log.llmResponse}
 									</div>

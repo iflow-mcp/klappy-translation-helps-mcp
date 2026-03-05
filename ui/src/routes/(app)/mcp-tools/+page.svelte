@@ -1238,13 +1238,13 @@
 							<div>
 								<span class="font-medium text-gray-400">Endpoint:</span>
 								<code
-									class="ml-2 overflow-x-auto rounded bg-gray-900 px-2 py-1 text-xs break-words whitespace-pre-wrap text-blue-400"
+									class="ml-2 overflow-x-auto whitespace-pre-wrap break-words rounded bg-gray-900 px-2 py-1 text-xs text-blue-400"
 									>{selectedEndpoint.path}</code
 								>
 							</div>
 							<div>
 								<span class="font-medium text-gray-400">Category:</span>
-								<span class="ml-2 text-white capitalize">{selectedEndpoint.category}</span>
+								<span class="ml-2 capitalize text-white">{selectedEndpoint.category}</span>
 							</div>
 							{#if selectedEndpoint.tags?.length > 0}
 								<div>
@@ -1316,18 +1316,18 @@
 										<div class="border-t border-gray-600/50 p-4">
 											<!-- Parameters -->
 											<div class="mb-3">
-												<span class="text-xs font-medium tracking-wide text-gray-400 uppercase"
+												<span class="text-xs font-medium uppercase tracking-wide text-gray-400"
 													>Parameters</span
 												>
 												<pre
-													class="mt-1 overflow-x-auto rounded bg-gray-900 p-3 text-xs break-words whitespace-pre-wrap lg:text-sm">
+													class="mt-1 overflow-x-auto whitespace-pre-wrap break-words rounded bg-gray-900 p-3 text-xs lg:text-sm">
 <code class="text-green-400">{JSON.stringify(example.params, null, 2)}</code></pre>
 											</div>
 
 											<!-- Expected Content (if available) -->
 											{#if example.expectedContent}
 												<div class="mt-3 rounded bg-gray-900/50 p-3">
-													<span class="text-xs font-medium tracking-wide text-gray-400 uppercase"
+													<span class="text-xs font-medium uppercase tracking-wide text-gray-400"
 														>Expected Response</span
 													>
 													<div class="mt-2 space-y-2">
@@ -1429,13 +1429,13 @@
 							<div>
 								<span class="font-medium text-gray-400">Endpoint:</span>
 								<code
-									class="ml-2 overflow-x-auto rounded bg-gray-900 px-2 py-1 text-xs break-words whitespace-pre-wrap text-blue-400"
+									class="ml-2 overflow-x-auto whitespace-pre-wrap break-words rounded bg-gray-900 px-2 py-1 text-xs text-blue-400"
 									>{selectedEndpoint.path}</code
 								>
 							</div>
 							<div>
 								<span class="font-medium text-gray-400">Category:</span>
-								<span class="ml-2 text-white capitalize">{selectedEndpoint.category}</span>
+								<span class="ml-2 capitalize text-white">{selectedEndpoint.category}</span>
 							</div>
 							{#if selectedEndpoint.tags?.length > 0}
 								<div>
@@ -1707,7 +1707,7 @@
 												bind:value={promptParameters[param.name]}
 												placeholder={param.placeholder}
 												required={param.required}
-												class="w-full rounded-lg border border-gray-600 bg-gray-800 px-3 py-2 text-white placeholder-gray-500 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 focus:outline-none"
+												class="w-full rounded-lg border border-gray-600 bg-gray-800 px-3 py-2 text-white placeholder-gray-500 focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500"
 											/>
 											{#if param.description}
 												<p class="mt-1 text-xs text-gray-500">{param.description}</p>

@@ -97,7 +97,7 @@
 					<span class="text-sm text-gray-400">Trace ID</span>
 					<Eye class="h-4 w-4 text-gray-500" />
 				</div>
-				<div class="font-mono text-xs break-all text-blue-400">
+				<div class="break-all font-mono text-xs text-blue-400">
 					{data.traceId}
 				</div>
 				<div class="mt-1 text-xs text-gray-500">X-ray debugging</div>
@@ -185,7 +185,7 @@
 							<span class="text-gray-400">{formatTime(call.duration)}</span>
 						</div>
 						{#if call.url}
-							<div class="mt-1 font-mono break-all text-gray-500">{call.url}</div>
+							<div class="mt-1 break-all font-mono text-gray-500">{call.url}</div>
 						{/if}
 					</div>
 				{/each}
@@ -209,7 +209,7 @@
 			{#if data.debug.cacheKey}
 				<div class="mb-2">
 					<span class="text-xs text-gray-400">Cache Key:</span>
-					<div class="font-mono text-xs break-all text-gray-300">{data.debug.cacheKey}</div>
+					<div class="break-all font-mono text-xs text-gray-300">{data.debug.cacheKey}</div>
 				</div>
 			{/if}
 

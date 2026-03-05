@@ -206,7 +206,7 @@
 				<div class="flex items-center space-x-3">
 					<a href="/" class="group flex items-center space-x-3">
 						<div
-							class="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-r from-blue-500 to-cyan-500 transition-transform duration-200 group-hover:scale-110 group-hover:rotate-12"
+							class="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-r from-blue-500 to-cyan-500 transition-transform duration-200 group-hover:rotate-12 group-hover:scale-110"
 						>
 							<Droplets class="h-6 w-6 text-white" />
 						</div>
@@ -238,11 +238,11 @@
 
 							<!-- Tooltip -->
 							<div
-								class="pointer-events-none absolute bottom-full left-1/2 z-50 mb-2 -translate-x-1/2 transform rounded-lg border border-blue-500/30 bg-black/90 px-3 py-2 text-xs whitespace-nowrap text-blue-200 opacity-0 backdrop-blur-xl transition-opacity duration-200 group-hover:opacity-100"
+								class="pointer-events-none absolute bottom-full left-1/2 z-50 mb-2 -translate-x-1/2 transform whitespace-nowrap rounded-lg border border-blue-500/30 bg-black/90 px-3 py-2 text-xs text-blue-200 opacity-0 backdrop-blur-xl transition-opacity duration-200 group-hover:opacity-100"
 							>
 								{item.description}
 								<div
-									class="absolute top-full left-1/2 h-0 w-0 -translate-x-1/2 transform border-t-4 border-r-4 border-l-4 border-transparent border-t-black/90"
+									class="absolute left-1/2 top-full h-0 w-0 -translate-x-1/2 transform border-l-4 border-r-4 border-t-4 border-transparent border-t-black/90"
 								></div>
 							</div>
 						</a>
@@ -296,7 +296,7 @@
 		{#if mobileMenuOpen}
 			<div
 				data-testid="mobile-menu"
-				class="absolute top-full right-0 left-0 z-50 border-b border-blue-500/30 bg-black/95 backdrop-blur-2xl md:hidden"
+				class="absolute left-0 right-0 top-full z-50 border-b border-blue-500/30 bg-black/95 backdrop-blur-2xl md:hidden"
 			>
 				<div class="space-y-2 px-4 py-6">
 					{#if navigationError}

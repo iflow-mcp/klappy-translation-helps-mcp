@@ -1025,7 +1025,7 @@ main().catch(console.error);`,
 				<div class="space-y-3 text-sm text-gray-300">
 					<div>
 						<strong class="text-white">Local (STDIO):</strong>
-						<ul class="mt-1 ml-4 list-disc space-y-1 text-gray-400">
+						<ul class="ml-4 mt-1 list-disc space-y-1 text-gray-400">
 							<li>Runs on your machine</li>
 							<li>Uses standard input/output</li>
 							<li>Requires installation</li>
@@ -1033,7 +1033,7 @@ main().catch(console.error);`,
 					</div>
 					<div>
 						<strong class="text-white">Remote (HTTP):</strong>
-						<ul class="mt-1 ml-4 list-disc space-y-1 text-gray-400">
+						<ul class="ml-4 mt-1 list-disc space-y-1 text-gray-400">
 							<li>Hosted on the internet</li>
 							<li>Accessible via HTTP/HTTPS</li>
 							<li>No local setup needed</li>
